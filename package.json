@@ -26,7 +26,7 @@
     "check-for-update": "^1.0.3",
     "classnames": "^2.2.5",
     "electron": "^1.4.1",
-    "electron-builder": "^10.17.3",
+    "electron-builder": "^19.50.0",
     "envify": "^4.0.0",
     "flux": "^3.0.0",
     "gulp": "^3.9.1",
@@ -63,7 +63,14 @@
         "deb",
         "rpm",
         "freebsd",
-        "zip"
+        "zip",
+        "snap"
+      ]
+    },
+    "snap": {
+      "plugs": [
+        "default",
+        "desktop"
       ]
     }
   },
